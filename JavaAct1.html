@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title> Dumb Web page </title>
+    <script>
+        var luckyNumber = prompt('What is your lucky number?',7)
+    </script>
+</head>
+<body>
+    <h1> This is a smart web page </h1>
+    <script>
+        /*
+        document.write('<h1>Hello ' + name + ' </h1>')
+        */
+        /*
+        document.write("<p>The number " + luckyNumber +         " is lucky for you!</p>");
+        */
+        if (luckyNumber == 7) 
+        {
+            document.write("<p>Hey, 7 is my lucky                   number too!</p>");
+        } else if (luckyNumber == 13) {
+            document.write("<p>Funky Mojo! 13 is usually a bad number</p>");
+        
+        } else {
+            document.write("<p>The number " + luckyNumber + " is lucky for you!</p>")
+        }
+            
+        </script>
+    </body>
+</html>
